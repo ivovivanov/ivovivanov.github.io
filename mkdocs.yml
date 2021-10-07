@@ -1,6 +1,7 @@
 site_name: Основи на програмирането с Python
 ####Navigation####
 nav:
-    - Home: index.md
+    - Начало: index.md
     - Въведение: intro.md
     - Среди за разработка: ides.md
+    - Синтаксис: syntax.md
