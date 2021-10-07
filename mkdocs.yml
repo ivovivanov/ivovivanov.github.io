@@ -1,0 +1,5 @@
+site_name: Основи на програмирането с Python
+####Navigation####
+nav:
+    - Въведение: intro.md
+    - Среди за разработка: ides.md
