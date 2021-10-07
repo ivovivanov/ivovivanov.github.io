@@ -5,3 +5,6 @@ nav:
     - Въведение: intro.md
     - Среди за разработка: ides.md
     - Синтаксис: syntax.md
+markdown_extensions:
+    - pymdownx.highlight
+    - pymdownx.superfences
