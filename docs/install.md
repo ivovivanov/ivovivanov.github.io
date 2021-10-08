@@ -1,6 +1,6 @@
 # Инсталиране
 
-Официално място за изтегляне на Python https://www.python.org/downloads/
+Официално място за изтегляне на Python (https://www.python.org/downloads/)
 
 ## Инсталатори
 На сайтът име инсталатори за:
