@@ -8,9 +8,11 @@ nav:
     - Инсталиране: install.md
     - Среди за разработка: ides.md
     - Синтаксис: syntax.md
+    - Помощ: help.md
     - Запазени думи: keywords.md
     - Коментари: comments.md
     - Променливи: variables.md
+    - Стрингове: strings.md
 markdown_extensions:
     - pymdownx.highlight
     - pymdownx.superfences
