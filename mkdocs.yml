@@ -3,8 +3,12 @@ site_name: Основи на програмирането с Python
 nav:
     - Начало: index.md
     - Въведение: intro.md
+    - Цели на Python: purpose.md
+    - Още: more.md
+    - Инсталиране: install.md
     - Среди за разработка: ides.md
     - Синтаксис: syntax.md
+    - Запазени думи: keywords.md
 markdown_extensions:
     - pymdownx.highlight
     - pymdownx.superfences
