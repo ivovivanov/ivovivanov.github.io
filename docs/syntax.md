@@ -33,6 +33,22 @@ if x < y:
    print(y)
 ```
 
+## Statements
+
+- един на ред
+
+    ```python
+    #This is a single line statement
+    print('This is a statement!')
+    ```
+- повече от един на ред
+
+
+    ```python
+    #This is a multi line statement
+    str = 'This is a statement!' ; print(str)
+    ```
+
 ## Празен suit:
 ```python
 var = 'something'
