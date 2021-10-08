@@ -41,6 +41,7 @@ if x < y:
     #This is a single line statement
     print('This is a statement!')
     ```
+    
 - повече от един на ред
 
 
