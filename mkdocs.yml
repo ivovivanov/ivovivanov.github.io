@@ -12,6 +12,7 @@ nav:
     - Запазени думи: keywords.md
     - Коментари: comments.md
     - Променливи: variables.md
+    - Вход и Изход: io.md
     - Стрингове: strings.md
 markdown_extensions:
     - pymdownx.highlight
