@@ -9,6 +9,8 @@ nav:
     - Среди за разработка: ides.md
     - Синтаксис: syntax.md
     - Запазени думи: keywords.md
+    - Коментари: comments.md
+    - Променливи: variables.md
 markdown_extensions:
     - pymdownx.highlight
     - pymdownx.superfences
