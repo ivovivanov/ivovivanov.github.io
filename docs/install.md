@@ -4,6 +4,7 @@
 
 ## Инсталатори
 На сайтът име инсталатори за:
+
 - Windows
 - Mac
 - Linux
@@ -17,6 +18,7 @@ python --version
 ## Онлайн IDEs
 Ако не искате да инсталирате нищо на вашият компщтър в интернет има редица сайтове на които може да пускате вашият Python код.
 Ето и някои от тях:
+
 - https://www.online-python.com/
 - https://replit.com/languages/python3
 - https://www.jdoodle.com/python3-programming-online/
