@@ -1,8 +1,8 @@
 # Помощ
 
-Официаленa help страница за Python: https://www.python.org/about/help/
+Официаленa help страница за Python: (https://www.python.org/about/help/)
 
-Официална документация за Python 3: https://docs.python.org/3/
+Официална документация за Python 3: (https://docs.python.org/3/)
 
 ## Полезни функции
 
@@ -10,6 +10,7 @@
 Изкарва `help` за посоченото като аргумент в нея.
 
 Пример:
+
 ```python
 >>> help(print)
 Help on built-in function print in module builtins:
