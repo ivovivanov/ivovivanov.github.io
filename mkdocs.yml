@@ -18,3 +18,7 @@ nav:
 markdown_extensions:
     - pymdownx.highlight
     - pymdownx.superfences
+theme:
+  features:
+    - navigation.top
+
