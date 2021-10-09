@@ -13,6 +13,7 @@ nav:
     - Коментари: comments.md
     - Променливи: variables.md
     - Вход и Изход: io.md
+    - Числа: numbers.md
     - Стрингове: strings.md
 markdown_extensions:
     - pymdownx.highlight
