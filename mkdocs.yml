@@ -19,6 +19,16 @@ markdown_extensions:
     - pymdownx.highlight
     - pymdownx.superfences
 theme:
-  features:
-    - navigation.top
+    name: material
+    palette:
+        - scheme: default
+            toggle:
+                icon: material/tweather-night
+                name: Switch to dark mode
+        - scheme: slate
+            toggle:
+                icon: material/weather-sunny
+                name: Switch to light mode
+    features:
+        - navigation.top
 
