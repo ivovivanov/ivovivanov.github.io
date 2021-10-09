@@ -23,7 +23,7 @@ theme:
     palette:
         - scheme: default
           toggle:
-            icon: material/tweather-night
+            icon: material/weather-night
             name: Switch to dark mode
         - scheme: slate
           toggle:
