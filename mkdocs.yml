@@ -15,6 +15,10 @@ nav:
     - Вход и Изход: io.md
     - Числа: numbers.md
     - Стрингове: strings.md
+    - Оператори: operators.md
+    - Цикли: loops.md
+    - Списъци (Lists): lists.md
+    - Речници (Dictionaries): dictionaries.md
 markdown_extensions:
     - pymdownx.highlight
     - pymdownx.superfences
