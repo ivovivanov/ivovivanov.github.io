@@ -16,6 +16,7 @@ nav:
     - Числа: numbers.md
     - Стрингове: strings.md
     - Оператори: operators.md
+    - Проверки: checks.md    
     - Цикли: loops.md
     - Списъци (Lists): lists.md
     - Речници (Dictionaries): dictionaries.md
