@@ -40,4 +40,5 @@ theme:
             name: Switch to light mode
     features:
         - navigation.top
+        - content.tabs.link
 
