@@ -14,26 +14,26 @@
 Достъп до елемент с даден индекс:
 
 === "Python"
-  ```python
-  my_list = ['car', 'bike', 'truck', 'bus', 'atv']
-  print(my_list[3])
-  ```
+    ```python
+    my_list = ['car', 'bike', 'truck', 'bus', 'atv']
+    print(my_list[3])
+    ```
 === "Output"
-  ```
-  bike
-  ```
+    ```
+    bike
+    ```
 
 Достъп до поредица от елементи:
 
 === "Python"
-  ```python
-  my_list = ['car', 'bike', 'truck', 'bus', 'atv']
-  print(my_list[1:3])
-  ```
+    ```python
+    my_list = ['car', 'bike', 'truck', 'bus', 'atv']
+    print(my_list[1:3])
+    ```
 === "Output"
-  ```
-  ['bike', 'truck']
-  ``` 
+    ```
+    ['bike', 'truck']
+    ``` 
 
 ## Основни действия върху списъци
 
@@ -42,64 +42,64 @@
 Добавяне на елемент в края на списък става с метода `append()`:
 
 === "Python"
-  ```python
-  my_list = ['car', 'bike', 'truck']
-  print(my_list)
-  my_list.append('atv')
-  print(my_list)
-  ```
+    ```python
+    my_list = ['car', 'bike', 'truck']
+    print(my_list)
+    my_list.append('atv')
+    print(my_list)
+    ```
 === "Output"
-  ```
-  ['car', 'bike', 'truck']
-  ['car', 'bike', 'truck', 'atv']
-  ```
+    ```
+    ['car', 'bike', 'truck']
+    ['car', 'bike', 'truck', 'atv']
+    ```
 
 Добавяне на елемент преди посочен индекс с метода `insert()`:
 
 === "Python"
-  ```python
-  my_list = ['car', 'bike', 'truck']
-  print(my_list)
-  my_list.isnert(1, 'atv')
-  print(my_list)
-  ```
+    ```python
+    my_list = ['car', 'bike', 'truck']
+    print(my_list)
+    my_list.isnert(1, 'atv')
+    print(my_list)
+    ```
 === "Output"
-  ```
-  ['car', 'bike', 'truck']
-  ['car', 'atv', 'bike', 'truck']
-  ``` 
+    ```
+    ['car', 'bike', 'truck']
+    ['car', 'atv', 'bike', 'truck']
+    ``` 
 
 ### Премахване на елемент
 
 Премахване на елемент от края на списък и връщането му става с метода `pop()`:
 
 === "Python"
-  ```python
-  my_list = ['car', 'bike', 'truck']
-  print(my_list)
-  my_list.pop()
-  print(my_list)
-  ```
+    ```python
+    my_list = ['car', 'bike', 'truck']
+    print(my_list)
+    my_list.pop()
+    print(my_list)
+    ```
 === "Output"
-  ```
-  ['car', 'bike', 'truck']
-  ['car', 'bike']
-  ``` 
+    ```
+    ['car', 'bike', 'truck']
+    ['car', 'bike']
+    ``` 
 
 Премахване на първият срещнат елемент с дадена стойност става с метода `remove()`:
 
 === "Python"
-  ```python
-  my_list = ['car', 'bike', 'truck', 'car']
-  print(my_list)
-  my_list.remove('car')
-  print(my_list)
-  ```
+    ```python
+    my_list = ['car', 'bike', 'truck', 'car']
+    print(my_list)
+    my_list.remove('car')
+    print(my_list)
+    ```
 === "Output"
-  ```
-  ['car', 'bike', 'truck', 'car']
-  ['bike', 'truck', 'car']
-  ```
+    ```
+    ['car', 'bike', 'truck', 'car']
+    ['bike', 'truck', 'car']
+    ```
 
 ## Други методи за действия върху списъци
 
