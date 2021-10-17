@@ -19,8 +19,9 @@ nav:
     - Проверки: checks.md    
     - Цикли: loops.md
     - Списъци (Lists): lists.md
-    - Sets: sets.md
+    - Tuples: tuples.md
     - Речници (Dictionaries): dictionaries.md
+    - Sets: sets.md
 markdown_extensions:
     - pymdownx.highlight
     - pymdownx.superfences
