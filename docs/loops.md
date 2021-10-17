@@ -67,21 +67,19 @@ else:
 ### Итерация върху стринг
 
 === "Python" 
-
-```python
-for letter in 'abcde':  
-	print(letter)
-``` 
+	```python
+	for letter in 'abcde':  
+		print(letter)
+	``` 
 	
 === "Output"
-
-```
-a
-b
-c
-d
-e
-```
+	```
+	a
+	b
+	c
+	d
+	e
+	```
 
 ### range() функция
 
@@ -89,72 +87,63 @@ e
 
 
 === "Python" 
-
-```python
-for i in range(5):  
-	print(i)
-``` 
-	
+	```python
+	for i in range(5):  
+		print(i)
+	``` 
 === "Output"
-
-```
-0
-1
-2
-3
-4
-```
+	```
+	0
+	1
+	2
+	3
+	4
+	```
+	
 ##### range() с използване на `start` аргумент
 
 === "Python" 
-
-```python
-for i in range(3, 5):  
-	print(i)
-``` 
-	
+	```python
+	for i in range(3, 5):  
+		print(i)
+	``` 
 === "Output"
-
-```
-3
-4
-```
+	```
+	3
+	4
+	```
 ##### range() с използване на `start` и `step` аргументи
 
 === "Python" 
-
-```python
-for i in range(2, 5, 2):  
-	print(i)
-``` 
-	
+	```python
+	for i in range(2, 5, 2):  
+		print(i)
+	``` 
 === "Output"
 
-```
-2
-4
-```
+	```
+	2
+	4
+	```
+	
 ## Вграждане на цикли (Nested loops)
 
 Вграждането на цикли означава 'поставянето' на един цикъл в тялото(suite) на друг цикъл. Така на всяка итерация на външния цикъл се изпълняват пълен набор от итерации на вътрепния цикъл.
 
 === "Python" 
-
-```python
-gender = ['boy', 'girl']
-city = ['New York', 'Sofia', 'London']
-for g in gender: 
-	for c in city: 
-		print(f'I am a {g} and I live in {c}!')
-``` 
-	
+	```python
+	gender = ['boy', 'girl']
+	city = ['New York', 'Sofia', 'London']
+	for g in gender: 
+		for c in city: 
+			print(f'I am a {g} and I live in {c}!')
+	``` 	
 === "Output"
-
-```
-I am a boy and I live in New York!
-I am a boy and I live in Sofia!
-I am a boy and I live in London!
-I am a girl and I live in New York!
-I am a girl and I live in Sofia!
-I am a girl and I live in London!
-```
+	```
+	I am a boy and I live in New York!
+	I am a boy and I live in Sofia!
+	I am a boy and I live in London!
+	I am a girl and I live in New York!
+	I am a girl and I live in Sofia!
+	I am a girl and I live in London!
+	```
