@@ -22,6 +22,7 @@ nav:
     - Tuples: tuples.md
     - Речници (Dictionaries): dictionaries.md
     - Sets: sets.md
+    - Functions: functions.md
 markdown_extensions:
     - pymdownx.highlight
     - pymdownx.superfences
