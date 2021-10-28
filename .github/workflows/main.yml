@@ -1,0 +1,37 @@
+name: Publish the GitHub Page
+on:
+  workflow_dispatch:
+    inputs:
+      Confirm:
+        description: 'Are you sure you want to run:'
+        required: true
+        default: 'Yes'
+
+
+jobs:
+  add-gads:
+    name: Modifiy html files to add gads
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2.3.2
+      - name: Git config username
+        run: git config --global user.name "ivovivanov"
+      - name: Git config mail
+        run: git config --global user.email "urbanwax@abv.bg"
+      - name: Pull
+        run: git pull
+      - name: Modifiy the specific files using scripts
+        run: |
+          
+          for file in `find . -name "*.html"`;do sed -i '8i\ <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5944013539454205" \n crossorigin="anonymous"></script>' $file; done
+          
+      - name: Git add
+        run:  git add --all
+      - name: Git status before
+        run:  git status
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
